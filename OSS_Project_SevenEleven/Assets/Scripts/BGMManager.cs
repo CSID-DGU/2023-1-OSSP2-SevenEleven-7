@@ -66,16 +66,6 @@ public class BGMManager : MonoBehaviour
         source.Stop();
     }
 
-    public void Loop()
-    {
-        source.loop = true;
-    }
-
-    public void UnLoop()
-    {
-        source.loop = false;
-    }
-
     public void FadeOutMusic()
     {
         StopAllCoroutines();

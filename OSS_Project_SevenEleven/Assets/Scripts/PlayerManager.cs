@@ -32,9 +32,6 @@ public class PlayerManager : MovingObject
     private AudioManager theAudio;
     private SaveNLoad theSaveNLoad;
 
-    public string current_transfer;
-    public bool istransfer = false;
-
     private void Awake()
     {
         if (instance == null)
